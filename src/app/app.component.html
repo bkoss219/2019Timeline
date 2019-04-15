@@ -11,6 +11,7 @@
   <p style="background-color:orange">Asian American</p>
   <p style="background-color:purple; color:white">LGBT*</p>
   <p style="background-color:aqua">General</p>
+  <p style="background-color:grey; color:white;">Pre-20th Century</p>
 
   <h2>Sort By:</h2>
   <button class="button" (click)="orderToYear()">Year</button>
@@ -20,7 +21,7 @@
   <button class="accordian" [style.color]="event.getTextColor()" [style.background-color]="event.getColor()" (click)="toggleAccordian($event, i)"><b>{{event.year}}</b>- {{event.name}}</button>
   <div class="panel" hide="!event.isActive">
     <p>{{event.description}}</p>
-    <img [src]="event.image" *ngIf="event.hasImage" />
+    <img [src]="event.image" *ngIf="event.hasImage" style="max-width:99%; display:block; margin-left:auto; margin-right:auto;" />
     </div>
 </div>
 
