@@ -83,5 +83,20 @@ export const EVENTS: Event[] =
   new Event("\"I Have a Dream\"", 1963, 0, "Martin Luther King Jr. leads a peaceful march on Washington, reciting his famous I Have a Dream speech, one of the strongest symbols of African American rights in US history.", "mlk"),
   new Event("MLK is Assassinated", 1968, 0, "Martin Luther King Jr. is assassinated 5 years following his famous I Have a Dream speech, becoming somewhat of a martyr in the African American rights movement.", null),
   new Event("Weeks v. Southern Bell", 1965, 1, "Many laws restricting women's work hours and conditions were loosened, opening up many previously male-only jobs.", null),
-  new Event("Executive Order 11246", 1968, 1, "An Executive Order is passed that prohibits the descrimination of sex in government contractors, as well as many steps to hire more women.", null)
+  new Event("Executive Order 11246", 1968, 1, "An Executive Order is passed that prohibits the descrimination of sex in government contractors, as well as many steps to hire more women.", null),
+  new Event("The Longest Walk", 1978, 3, "A group of Native Americans marched to Washington to show opposition of their ancestors being removed from their original homes.", null),
+  new Event("The National Congress of American Indians", 1944, 3, "A group that began representing the needs and wishes of tribal americans to congress.", null),
+  new Event("National Indian Educational Association", 1969, 3, "The NIEA was formed to give native american children the same opportunities in education as the white students.", null),
+  new Event("Bloody Sunday", 1965, 0, "In the push for voting rights, African Americans marched to Montgomery; they were blockaded in Selma by the police, who forcefully attacked many of the peaceful protestors. The event was considered the last step before the Voting Rights Act and was depicted in the 2014 film, Selma.", null),
+  new Event("The Civil Rights Restoration Act", 1988, 6, "Congress passed the Civil Rights Restoration Act, which expanded nondescriminatory laws to private bodies receiving government money.", null),
+  new Event("Brown v. Board of Education", 1954, 0, "This Supreme Court ruling attempted to force the integration of American segregated schools.", null),
+  new Event("Loving v. Virginia", 1967, 0, "The laws prohibiting interracial marriage are finally abolished, after being declared unconstitutional.", null),
+  new Event("The American Disabilities with Act", 1990, 6, "The ADA extends many nondescriminatory laws to persons with disabilities in cases such as education, employment, etc.", null),
+  new Event("The Southern Christian Leadership Conferent", 1957, 0, "The SCLC is formed, with Martin Luther King Jr. as the leader. Though it sounds like a religious group, it was formed for the purpose of African American rights movements.", null),
+  new Event("The Student Nonviolent Coordinating Committee", 1960, 0, "The SNCC (SNIK?) performed student sit-ins for the civil rights and black power movements.", null),
+  new Event("Homosexuality is no Longer a Mental Illness", 1956, 5, "The APA, American Psychological Association, met and came to the conclusion that there were no substatial differences in the mental health of homosexual and heterosexual test subjects.", null),
+  new Event("The First Pride Parade", 1970, 5, "In many cities across America, a now popular pro-LGBT parade called Pride is held for the first time. It is a time of celebration for how far the community has come, as well as recognition for how far we have to go.", null),
+  new Event("HIV/AIDS Is Recognized", 1981, 5, "Initially considered a \"gay disease\", often depicted as a god's punishment by religious groups, is beginning to gain awareness by people not in the LGBT community.", null),
+  new Event("Japan bombs Pearl Harbor", 1941, 2, "While not entirely a part of the civil rights movement, this was the first of a series of events leading to further discrimination of Japanese American peoples.", null),
+  new Event("The Japanese Concentration Camps", 1943, 2, "Over 2,000 Japanese Americans are placed in concentration camps for fear of espionage.", null)
 ];
