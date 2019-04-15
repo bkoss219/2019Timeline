@@ -353,7 +353,7 @@ var EVENTS = [
     new Event("Weeks v. Southern Bell", 1965, 1, "Many laws restricting women's work hours and conditions were loosened, opening up many previously male-only jobs.", null),
     new Event("Executive Order 11246", 1968, 1, "An Executive Order is passed that prohibits the discrimination of sex in government contractors, as well as many steps to hire more women.", null),
     new Event("The Longest Walk", 1978, 3, "A group of Native Americans marched to Washington to show opposition of their ancestors being removed from their original homes.", "longestwalk"),
-    new Event("The National Congress of American Indians", 1944, 3, "A group that began representing the needs and wishes of tribal americans to congress.", "mcai"),
+    new Event("The National Congress of American Indians", 1944, 3, "A group that began representing the needs and wishes of tribal americans to congress.", "ncai"),
     new Event("National Indian Educational Association", 1969, 3, "The NIEA was formed to give native american children the same opportunities in education as the white students.", "niea"),
     new Event("Bloody Sunday", 1965, 0, "In the push for voting rights, African Americans marched to Montgomery; they were blockaded in Selma by the police, who forcefully attacked many of the peaceful protestors. The event was considered the last step before the Voting Rights Act and was depicted in the 2014 film, Selma.", null),
     new Event("The Civil Rights Restoration Act", 1988, 6, "Congress passed the Civil Rights Restoration Act, which expanded nondescriminatory laws to private bodies receiving government money.", null),
