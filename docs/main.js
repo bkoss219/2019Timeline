@@ -292,7 +292,7 @@ var Event = /** @class */ (function () {
         this.description = description;
         if (image != null) {
             this.hasImage = true;
-            this.image = "assets/images/" + image + ".jpg";
+            this.image = "https://bkoss219.github.io/2019Timeline/assets/images/" + image + ".jpg";
         }
         else
             this.hasImage = false;
