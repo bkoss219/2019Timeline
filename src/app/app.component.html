@@ -1,0 +1,21 @@
+<div>
+
+  <h1>Events: {{dispEvents.length}}</h1>
+
+  <h2>Sort By:</h2>
+  <button class="button" (click)="orderToYear()">Year</button>
+  <button class="button" (click)="orderToType()">Type</button>
+
+<div *ngFor="let event of dispEvents | orderBy: order ; let i = index">
+  <button class="accordian" [style.color]="event.getTextColor()" [style.background-color]="event.getColor()" (click)="toggleAccordian($event, i)"><b>{{event.year}}</b>- {{event.name}}</button>
+  <div class="panel" hide="!event.isActive">
+    <p>{{event.description}}</p>
+    <img [src]="event.image" *ngIf="event.hasImage" />
+    </div>
+</div>
+
+
+  
+  </div>
+   
+  <router-outlet></router-outlet>
